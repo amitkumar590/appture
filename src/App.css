@@ -1,38 +1,174 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #1c111f, #16182a);
+}
+
+.brand-name {
+  position: absolute;
+  left: 2%;
+  top: -1%;
+  color: rgb(169, 178, 177);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  margin-top: 40px;
+  padding: 10px;
+  color: rgb(226, 219, 219);
+}
+
+.form-heading {
+  margin-top: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App-main {
+  padding: 20px;
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 64vh;
+}
+
+.Card {
+  background-color: rgba(
+    247,
+    247,
+    250,
+    0.098
+  ); /* Different background color for the question card */
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Increased shadow intensity */
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.Card p {
+  margin-bottom: 15px; /* Add spacing between each option */
+}
+
+.App-footer {
+  color: rgb(197, 193, 193);
+  width: 100%;
+  text-align: center;
+  font-size: small;
+}
+
+/* Question.css */
+.Question {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #cacad5;
+}
+
+.Options {
+  margin-top: 40px; /* Add spacing between question and options */
+  font-size: medium;
+  font-weight: 400;
+}
+
+.Options ul {
+  list-style: none; /* Remove bullet points */
+}
+
+.Options label {
+  display: flex; /* Display options in a row */
+  align-items: center; /* Align text and radio/checkbox vertically */
+  margin-bottom: 15px; /* Add spacing between options */
+  margin-left: 50px;
+}
+
+.Options input[type="radio"] {
+  margin-right: 10px; /* Add space between radio button and text */
+}
+
+.ErrorMessageOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  z-index: 1000;
+}
+
+.ErrorMessage {
+  color: rgb(162, 35, 35);
+  font-size: 16px;
+  padding: 35px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.ErrorMessageCloseButton {
   color: white;
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgb(208, 44, 11);
+  border-radius: 50%;
+  border: 0;
 }
 
-.App-link {
-  color: #61dafb;
+input[type="text"] {
+  width: 300px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+  padding: 10px; /* Add padding to improve appearance */
+  font-size: 16px; /* Adjust font size as needed */
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 5px;
+  border: 0;
+  background-color: #cacad5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.next-button {
+  border: 0;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  background-color: rgba(45, 135, 70, 0.789);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.next-button:hover {
+  cursor: pointer;
+  color: rgb(201, 198, 198);
+  background-color: rgb(20, 125, 48);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.submitted {
+  color: rgb(187, 182, 182);
 }

@@ -1,0 +1,573 @@
+[
+  {
+    "id": -2,
+    "text": "Enter your Full Name",
+    "type": "text"
+  },
+  {
+    "id": -1,
+    "text": "Enter your Gmail Id",
+    "type": "text"
+  },
+  {
+    "id": 1,
+    "text": "You are from which Country?",
+    "type": "radio",
+    "options": [
+      { "id": 1, "text": "India", "followUpQuestionId": 2 },
+      { "id": 2, "text": "America", "followUpQuestionId": 3 },
+      { "id": 3, "text": "Australia", "followUpQuestionId": 4 },
+      { "id": 4, "text": "France", "followUpQuestionId": 5 }
+    ]
+  },
+
+  {
+    "id": 2,
+    "text": "You are from which state in India?",
+    "type": "radio",
+    "options": [
+      { "id": 5, "text": "Maharashtra", "followUpQuestionId": 6 },
+      { "id": 6, "text": "Karnataka", "followUpQuestionId": 7 },
+      { "id": 7, "text": "Tamil Nadu", "followUpQuestionId": 8 },
+      { "id": 8, "text": "Uttar Pradesh", "followUpQuestionId": 9 }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "You are from which state in America?",
+    "type": "radio",
+    "options": [
+      { "id": 9, "text": "California", "followUpQuestionId": 10 },
+      { "id": 10, "text": "New York", "followUpQuestionId": 11 },
+      { "id": 11, "text": "Texas", "followUpQuestionId": 12 },
+      { "id": 12, "text": "Florida", "followUpQuestionId": 13 }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "You are from which state in Australia?",
+    "type": "radio",
+    "options": [
+      { "id": 13, "text": "New South Wales", "followUpQuestionId": 14 },
+      { "id": 14, "text": "Victoria", "followUpQuestionId": 15 },
+      { "id": 15, "text": "Queensland", "followUpQuestionId": 16 },
+      { "id": 16, "text": "Western Australia", "followUpQuestionId": 17 }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "You are from which region in France?",
+    "type": "radio",
+    "options": [
+      { "id": 17, "text": "Île-de-France", "followUpQuestionId": 18 },
+      {
+        "id": 18,
+        "text": "Provence-Alpes-Côte d'Azur",
+        "followUpQuestionId": 19
+      },
+      { "id": 19, "text": "Auvergne-Rhône-Alpes", "followUpQuestionId": 20 },
+      { "id": 20, "text": "Occitanie", "followUpQuestionId": 21 }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "Which city in Maharashtra are you from?",
+    "type": "radio",
+    "options": [
+      { "id": 21, "text": "Mumbai", "followUpQuestionId": 22 },
+      { "id": 22, "text": "Pune", "followUpQuestionId": 22 },
+      { "id": 23, "text": "Nagpur", "followUpQuestionId": 22 },
+      { "id": 24, "text": "Thane", "followUpQuestionId": 22 }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "Which city in Karnataka are you from?",
+    "type": "radio",
+    "options": [
+      {
+        "id": 25,
+        "text": "Bangalore",
+        "followUpQuestionId": 23
+      },
+      { "id": 26, "text": "Mysore", "followUpQuestionId": 23 },
+      {
+        "id": 27,
+        "text": "Mangalore",
+        "followUpQuestionId": 23
+      },
+      {
+        "id": 28,
+        "text": "Hubli",
+        "followUpQuestionId": 23
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "Which city in Tamil Nadu are you from?",
+    "type": "radio",
+    "options": [
+      { "id": 29, "text": "Chennai", "followUpQuestionId": 24 },
+      { "id": 30, "text": "Coimbatore", "followUpQuestionId": 24 },
+      {
+        "id": 31,
+        "text": "Madurai",
+        "followUpQuestionId": 24
+      },
+      {
+        "id": 32,
+        "text": "Tiruchirappalli",
+        "followUpQuestionId": 24
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "Which city in Uttar Pradesh are you from?",
+    "type": "radio",
+    "options": [
+      { "id": 33, "text": "Lucknow", "followUpQuestionId": 25 },
+      {
+        "id": 34,
+        "text": "Kanpur",
+        "followUpQuestionId": 100
+      },
+      { "id": 35, "text": "Agra", "followUpQuestionId": 25 },
+      { "id": 36, "text": "Varanasi", "followUpQuestionId": 25 }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "Which city in California are you from?",
+    "type": "radio",
+    "options": [
+      { "id": 37, "text": "Los Angeles", "followUpQuestionId": 26 },
+      {
+        "id": 38,
+        "text": "San Francisco",
+        "followUpQuestionId": 26
+      },
+      { "id": 39, "text": "San Diego", "followUpQuestionId": 26 },
+      { "id": 40, "text": "Sacramento", "followUpQuestionId": 26 }
+    ]
+  },
+  {
+    "id": 11,
+    "text": "Which city in New York are you from?",
+    "type": "radio",
+    "options": [
+      { "id": 41, "text": "New York City", "followUpQuestionId": 27 },
+      {
+        "id": 42,
+        "text": "Buffalo",
+        "followUpQuestionId": 27
+      },
+      { "id": 43, "text": "Rochester", "followUpQuestionId": 27 },
+      { "id": 44, "text": "Albany", "followUpQuestionId": 27 }
+    ]
+  },
+  {
+    "id": 12,
+    "text": "Which city in Texas are you from?",
+    "type": "radio",
+    "options": [
+      { "id": 45, "text": "Houston", "followUpQuestionId": 28 },
+      {
+        "id": 46,
+        "text": "Austin",
+        "followUpQuestionId": 100
+      },
+      { "id": 47, "text": "Dallas", "followUpQuestionId": 28 },
+      { "id": 48, "text": "San Antonio", "followUpQuestionId": 28 }
+    ]
+  },
+  {
+    "id": 13,
+    "text": "Which city in Florida are you from?",
+    "type": "radio",
+    "options": [
+      { "id": 49, "text": "Miami", "followUpQuestionId": 29 },
+      {
+        "id": 50,
+        "text": "Orlando",
+        "followUpQuestionId": 29
+      },
+      { "id": 51, "text": "Tampa", "followUpQuestionId": 29 },
+      { "id": 52, "text": "Jacksonville", "followUpQuestionId": 29 }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "Which city in New South Wales are you from?",
+    "type": "radio",
+    "options": [
+      { "id": 53, "text": "Sydney", "followUpQuestionId": 30 },
+      {
+        "id": 54,
+        "text": "Newcastle",
+        "followUpQuestionId": 30
+      },
+      { "id": 55, "text": "Wollongong", "followUpQuestionId": 30 },
+      { "id": 56, "text": "Central Coast", "followUpQuestionId": 30 }
+    ]
+  },
+
+  {
+    "id": 15,
+    "text": "Which city in Victoria are you from?",
+    "type": "radio",
+    "options": [
+      { "id": 57, "text": "Melbourne", "followUpQuestionId": 31 },
+      {
+        "id": 58,
+        "text": "Geelong",
+        "followUpQuestionId": 31
+      },
+      { "id": 59, "text": "Ballarat", "followUpQuestionId": 31 },
+      { "id": 60, "text": "Bendigo", "followUpQuestionId": 31 }
+    ]
+  },
+  {
+    "id": 16,
+    "text": "Which city in Queensland are you from?",
+    "type": "radio",
+    "options": [
+      { "id": 61, "text": "Brisbane", "followUpQuestionId": 32 },
+      {
+        "id": 62,
+        "text": "Gold Coast",
+        "followUpQuestionId": 32
+      },
+      { "id": 63, "text": "Sunshine Coast", "followUpQuestionId": 32 },
+      { "id": 64, "text": "Townsville", "followUpQuestionId": 32 }
+    ]
+  },
+  {
+    "id": 17,
+    "text": "Which city in Western Australia are you from?",
+    "type": "radio",
+    "options": [
+      { "id": 65, "text": "Perth", "followUpQuestionId": 33 },
+      {
+        "id": 66,
+        "text": "Fremantle",
+        "followUpQuestionId": 33
+      },
+      { "id": 67, "text": "Mandurah", "followUpQuestionId": 33 },
+      { "id": 68, "text": "Bunbury", "followUpQuestionId": 33 }
+    ]
+  },
+  {
+    "id": 18,
+    "text": "Which city in Île-de-France are you from?",
+    "type": "radio",
+    "options": [
+      { "id": 69, "text": "Paris", "followUpQuestionId": 34 },
+      {
+        "id": 70,
+        "text": "Versailles",
+        "followUpQuestionId": 34
+      },
+      { "id": 71, "text": "Boulogne-Billancourt", "followUpQuestionId": 34 },
+      { "id": 72, "text": "Saint-Denis", "followUpQuestionId": 34 }
+    ]
+  },
+  {
+    "id": 19,
+    "text": "Which city in Provence-Alpes-Côte d'Azur are you from?",
+    "type": "radio",
+    "options": [
+      { "id": 73, "text": "Marseille", "followUpQuestionId": 35 },
+      {
+        "id": 74,
+        "text": "Nice",
+        "followUpQuestionId": 35
+      },
+      { "id": 75, "text": "Toulon", "followUpQuestionId": 35 },
+      { "id": 76, "text": "Avignon", "followUpQuestionId": 35 }
+    ]
+  },
+  {
+    "id": 20,
+    "text": "Which city in Auvergne-Rhône-Alpes are you from?",
+    "type": "radio",
+    "options": [
+      { "id": 77, "text": "Lyon", "followUpQuestionId": 36 },
+      {
+        "id": 78,
+        "text": "Grenoble",
+        "followUpQuestionId": 36
+      },
+      { "id": 79, "text": "Saint-Étienne", "followUpQuestionId": 36 },
+      { "id": 80, "text": "Clermont-Ferrand", "followUpQuestionId": 36 }
+    ]
+  },
+  {
+    "id": 21,
+    "text": "Which city in Occitanie are you from?",
+    "type": "radio",
+    "options": [
+      { "id": 81, "text": "Toulouse", "followUpQuestionId": 37 },
+      {
+        "id": 82,
+        "text": "Montpellier",
+        "followUpQuestionId": 37
+      },
+      { "id": 83, "text": "Nîmes", "followUpQuestionId": 37 },
+      { "id": 84, "text": "Perpignan", "followUpQuestionId": 37 }
+    ]
+  },
+  {
+    "id": 22,
+    "text": "Which local dish from Maharashtra is your favorite?",
+    "type": "radio",
+    "options": [
+      { "id": 85, "text": "Vada Pav", "followUpQuestionId": 100 },
+      {
+        "id": 86,
+        "text": "Pav Bhaji",
+        "followUpQuestionId": 100
+      },
+      { "id": 87, "text": "Pani Puri", "followUpQuestionId": 100 },
+      { "id": 88, "text": "Bombay Sandwich", "followUpQuestionId": 100 }
+    ]
+  },
+  {
+    "id": 23,
+    "text": "What's your go-to South Indian dish in Bangalore?",
+    "type": "radio",
+    "options": [
+      { "id": 89, "text": "Masala Dosa", "followUpQuestionId": 100 },
+      {
+        "id": 90,
+        "text": "Idli with Coconut Chutney",
+        "followUpQuestionId": 100
+      },
+      { "id": 91, "text": "Rava Upma", "followUpQuestionId": 100 },
+      { "id": 92, "text": "Bisi Bele Bath", "followUpQuestionId": 100 }
+    ]
+  },
+  {
+    "id": 24,
+    "text": "What's your favorite traditional dish in Tamil Nadu?",
+    "type": "radio",
+    "options": [
+      { "id": 93, "text": "Chettinad Chicken Curry", "followUpQuestionId": 100 },
+      {
+        "id": 94,
+        "text": "Filter Coffee",
+        "followUpQuestionId": 100
+      },
+      { "id": 95, "text": "Masala Vadai", "followUpQuestionId": 100 },
+      { "id": 96, "text": "Thali Meal", "followUpQuestionId": 100 }
+    ]
+  },
+  {
+    "id": 25,
+    "text": "Which Awadhi delicacy do you enjoy the most in Uttar Pradesh?",
+    "type": "radio",
+    "options": [
+      { "id": 93, "text": "Galouti Kebab", "followUpQuestionId": 100 },
+      {
+        "id": 94,
+        "text": "Tunday Kebab",
+        "followUpQuestionId": 100
+      },
+      { "id": 95, "text": "Lucknawi Biryani", "followUpQuestionId": 100 },
+      { "id": 96, "text": "Sheerma", "followUpQuestionId": 100 }
+    ]
+  },
+  {
+    "id": 26,
+    "text": "What's your favorite type of cuisine to enjoy in California?",
+    "type": "radio",
+    "options": [
+      { "id": 93, "text": "Tacos from a food truck", "followUpQuestionId": 100 },
+      {
+        "id": 94,
+        "text": "Sushi from a trendy restaurant",
+        "followUpQuestionId": 100
+      },
+      { "id": 95, "text": "Vegan options from local cafes", "followUpQuestionId": 100 },
+      { "id": 96, "text": "Classic American burger and fries", "followUpQuestionId": 100 }
+    ]
+  },
+  {
+    "id": 27,
+    "text": "Which cuisine do you love to indulge in when you're in New York?",
+    "type": "radio",
+    "options": [
+      { "id": 93, "text": "New York-style pizza", "followUpQuestionId": 100 },
+      {
+        "id": 94,
+        "text": "Bagels with cream cheese",
+        "followUpQuestionId": 100
+      },
+      { "id": 95, "text": "Authentic deli sandwiches", "followUpQuestionId": 100 },
+      { "id": 96, "text": "International food options in Queens", "followUpQuestionId": 100 }
+    ]
+  },
+  {
+    "id": 28,
+    "text": "What's your favorite type of food in Texas?",
+    "type": "radio",
+    "options": [
+      { "id": 93, "text": "Barbecue brisket", "followUpQuestionId": 100 },
+      {
+        "id": 94,
+        "text": "Tex-Mex enchiladas",
+        "followUpQuestionId": 100
+      },
+      { "id": 95, "text": "Cajun seafood", "followUpQuestionId": 100 },
+      { "id": 96, "text": "Southern comfort food", "followUpQuestionId": 100 }
+    ]
+  },
+  {
+    "id": 29,
+    "text": "What's your go-to food when experiencing Florida's culture?",
+    "type": "radio",
+    "options": [
+      { "id": 93, "text": "Cuban sandwich", "followUpQuestionId": 100 },
+      {
+        "id": 94,
+        "text": "Fresh seafood ceviche",
+        "followUpQuestionId": 100
+      },
+      { "id": 95, "text": "Key lime pie", "followUpQuestionId": 100 },
+      { "id": 96, "text": "Conch fritters", "followUpQuestionId": 100 }
+    ]
+  },
+  {
+    "id": 30,
+    "text": "What's your favorite beach activity in New South Wales?", 
+    "type": "radio",
+    "options": [
+      { "id": 93, "text": "Surfing at Bondi Beach", "followUpQuestionId": 100 },
+      {
+        "id": 94,
+        "text": "Taking a coastal walk from Coogee to Bondi",
+        "followUpQuestionId": 100
+      },
+      { "id": 95, "text": "Relaxing at Manly Beach", "followUpQuestionId": 100 },
+      { "id": 96, "text": "Exploring the tide pools at Bronte Beach", "followUpQuestionId": 100 }
+    ]
+  },
+  {
+    "id": 31,
+    "text": "What's your favorite cultural experience in Victoria?", 
+    "type": "radio",
+    "options": [
+      { "id": 93, "text": "Exploring the street art in Hosier Lane", "followUpQuestionId": 100 },
+      {
+        "id": 94,
+        "text": "Attending a live music gig in Fitzroy",
+        "followUpQuestionId": 100
+      },
+      { "id": 95, "text": "Visiting the National Gallery of Victoria", "followUpQuestionId": 100 },
+      { "id": 96, "text": "Enjoying a show at the Melbourne Comedy Festival", "followUpQuestionId": 100 }
+    ]
+  },
+  {
+    "id": 32,
+    "text": "What's your preferred outdoor activity in Queensland?",  
+    "type": "radio",
+    "options": [
+      { "id": 93, "text": "Cycling along the Brisbane River", "followUpQuestionId": 100 },
+      {
+        "id": 94,
+        "text": "Relaxing at South Bank's artificial beach",
+        "followUpQuestionId": 100
+      },
+      { "id": 95, "text": "Kayaking on the river", "followUpQuestionId": 100 },
+      { "id": 96, "text": "Hiking in the nearby Glass House Mountains", "followUpQuestionId": 100 }
+    ]
+  },
+  {
+    "id": 33,
+    "text": "What's your favorite way to enjoy Western Australia's natural beauty?",  
+    "type": "radio",
+    "options": [
+      { "id": 93, "text": "Taking a stroll along Cottesloe Beach", "followUpQuestionId": 100 },
+      {
+        "id": 94,
+        "text": "Exploring Kings Park and its botanical gardens",
+        "followUpQuestionId": 100
+      },
+      { "id": 95, "text": "Going on a Swan River cruise", "followUpQuestionId": 100 },
+      { "id": 96, "text": "Admiring the sunset at Scarborough Beach", "followUpQuestionId": 100 }
+    ]
+  },
+  {
+    "id": 34,
+    "text": "Which museum or landmark in Île-de-France do you love to visit?",  
+    "type": "radio",
+    "options": [
+      { "id": 93, "text": "The Louvre Museum", "followUpQuestionId": 100 },
+      {
+        "id": 94,
+        "text": "Musée d'Orsay",
+        "followUpQuestionId": 100
+      },
+      { "id": 95, "text": "Palace of Versailles", "followUpQuestionId": 100 },
+      { "id": 96, "text": "Centre Pompidou", "followUpQuestionId": 100 }
+    ]
+  },
+  {
+    "id": 35,
+    "text": "What's your favorite coastal activity in Provence-Alpes-Côte d'Azur?",  
+    "type": "radio",
+    "options": [
+      { "id": 93, "text": "Exploring the Calanques by boat", "followUpQuestionId": 100 },
+      {
+        "id": 94,
+        "text": "Swimming at Prado Beach",
+        "followUpQuestionId": 100
+      },
+      { "id": 95, "text": "Visiting Château d'If", "followUpQuestionId": 100 },
+      { "id": 96, "text": "Enjoying a seafood meal at the Old Port", "followUpQuestionId": 100 }
+    ]
+  },
+  {
+    "id": 36,
+    "text": "What's your favorite festival or event in Auvergne-Rhône-Alpes?",  
+    "type": "radio",
+    "options": [
+      { "id": 93, "text": "Fête des Lumières (Festival of Lights)", "followUpQuestionId": 100 },
+      {
+        "id": 94,
+        "text": "Nuits de Fourvière music and theater festival",
+        "followUpQuestionId": 100
+      },
+      { "id": 95, "text": "Quais du Polar (Crime Fiction Festival)", "followUpQuestionId": 100 },
+      { "id": 96, "text": "Les Nuits Sonores electronic music festival", "followUpQuestionId": 100 }
+    ]
+  },
+  {
+    "id": 37,
+    "text": "What's your preferred way to enjoy Occitanie's culture?",  
+    "type": "radio",
+    "options": [
+      { "id": 93, "text": "Visiting the Cité de l'Espace (Space City)", "followUpQuestionId": 100 },
+      {
+        "id": 94,
+        "text": "Exploring the Capitole de Toulouse",
+        "followUpQuestionId": 100
+      },
+      { "id": 95, "text": "Enjoying the local markets and cafés", "followUpQuestionId": 100 },
+      { "id": 96, "text": "Attending the Rio Loco World Music Festival", "followUpQuestionId": 100 }
+    ]
+  },
+
+  {
+    "id": 100,
+    "text": "How was your experience with this Dynamic Form?",
+    "type": "radio",
+    "options": [
+      { "id": 113, "text": "Bad", "followUpQuestionId": null },
+      { "id": 114, "text": "Average", "followUpQuestionId": null },
+      { "id": 115, "text": "Good", "followUpQuestionId": null },
+      { "id": 116, "text": "Excellent", "followUpQuestionId": null }
+    ]
+  }
+]
