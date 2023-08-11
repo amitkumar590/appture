@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/appture/static/css/main.de6ed004.css",
+    "main.js": "/appture/static/js/main.73d372cb.js",
+    "static/js/787.1108a5ff.chunk.js": "/appture/static/js/787.1108a5ff.chunk.js",
+    "index.html": "/appture/index.html",
+    "main.de6ed004.css.map": "/appture/static/css/main.de6ed004.css.map",
+    "main.73d372cb.js.map": "/appture/static/js/main.73d372cb.js.map",
+    "787.1108a5ff.chunk.js.map": "/appture/static/js/787.1108a5ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de6ed004.css",
+    "static/js/main.73d372cb.js"
+  ]
+}
